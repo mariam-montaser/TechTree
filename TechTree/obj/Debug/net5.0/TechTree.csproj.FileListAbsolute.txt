@@ -464,3 +464,5 @@ F:\1\mrmr\Microsoft-stack\C#\C#\projects\TechTree\TechTree\obj\Debug\net5.0\Razo
 F:\1\mrmr\Microsoft-stack\C#\C#\projects\TechTree\TechTree\obj\Debug\net5.0\Razor\Views\Shared\_UserLoginPartial.cshtml.g.cs
 F:\1\mrmr\Microsoft-stack\C#\C#\projects\TechTree\TechTree\obj\Debug\net5.0\Razor\Views\Shared\_UserRegistrationPartial.cshtml.g.cs
 F:\1\mrmr\Microsoft-stack\C#\C#\projects\TechTree\TechTree\obj\Debug\net5.0\Razor\Views\Shared\_AuthScriptsPartial.cshtml.g.cs
+F:\1\mrmr\Microsoft-stack\C#\C#\projects\TechTree\TechTree\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_UserListViewPartial.cshtml.g.cs
+F:\1\mrmr\Microsoft-stack\C#\C#\projects\TechTree\TechTree\obj\Debug\net5.0\Razor\Areas\Admin\Views\UsersToCategory\Index.cshtml.g.cs
