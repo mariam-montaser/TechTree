@@ -1,0 +1,22 @@
+﻿
+@using Microsoft.AspNetCore
+@using Microsoft.AspNetCore.Identity
+
+@using TechTree.Data
+
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+
+@if(SignInManager.IsSignedIn(User) && await UserManager.IsInRoleAsync(UserManager.GetUserAsync(User).Result, "admin"))
+{
+	<li class="nav-item dropdown show">
+		<a class=" dropdown-toggle nav-link" data-toggle="dropdown" href="#">Admin</a>
+		<div class="dropdown-menu">
+			<a asp-area="Admin" asp-controller="Category" asp-action="Index" class="dropdown-item">Categories</a>
+			<a href="#" class="dropdown-item">Users to Categories</a>
+			<div class="dropdown-divider"></div>
+			<a asp-area="Admin" asp-controller="MediaType" asp-action="Index" class="dropdown-item">Media Type</a>
+		</div>
+</li>
+}
+
